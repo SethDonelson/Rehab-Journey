@@ -33,7 +33,7 @@ module.exports = {
     }
   },
 
-  // Upload image to cloudinary and grab url
+  // Upload image to cloudinary, await stored (result.secure_url)
   createPost: async (req, res) => {
     try {
       const result = await cloudinary.uploader.upload(req.file.path);
@@ -69,7 +69,7 @@ module.exports = {
     }
   },
 
-  //find by id, delete img, delete post
+  // find by id, delete from cloudinary and db
   deletePost: async (req, res) => {
     try {
       let post = await Post.findById({ _id: req.params.id });

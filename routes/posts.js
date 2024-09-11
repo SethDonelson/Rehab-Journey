@@ -4,8 +4,9 @@ const upload = require("../middleware/multer");
 const postsController = require("../controllers/posts");
 const { ensureAuth, ensureGuest } = require("../middleware/auth");
 
-//Post Routes set as /post/  server query parameter is :id
+//Post Routes - set as /post/... query parameter is :id
 router.get("/:id", ensureAuth, postsController.getPost);
+
 
 router.post("/createPost", upload.single("file"), postsController.createPost);
 

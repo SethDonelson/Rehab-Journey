@@ -31,6 +31,6 @@ const PostSchema = new mongoose.Schema({
   },
 });
 
-//can specify collection name as 3rd entry
+//add 3rd param to specify name
 module.exports = mongoose.model("Post", PostSchema);
 
