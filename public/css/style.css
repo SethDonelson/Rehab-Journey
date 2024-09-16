@@ -7,6 +7,10 @@
     background: linear-gradient(45deg, #5c5e60, #c7c8c9df);
   }
 
+.bg-gradient-custom-index{
+    background: linear-gradient(45deg, #03386c, #92bfefdf);
+}
+
 /* body{
     background-color: #c7c8c9df;
 } */
