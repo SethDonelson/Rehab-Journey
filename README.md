@@ -4,7 +4,7 @@ A Social Network for Your Physical and Mental Rehab.
 A positive support network to post and track your physical and/or mental rehab progress. View posts from the community, like, and comment to support others. <br>
 
 
-<img width="1122" alt="Rehab Journey Post Screen" src="https://i.ibb.co/WsByS2s/Screenshot-2024-09-18-115045.png">
+<img width="600" alt="Rehab Journey Post Screen" src="https://i.ibb.co/WsByS2s/Screenshot-2024-09-18-115045.png">
 
 ## How It's Made:
 
